@@ -1,5 +1,5 @@
 from datetime import datetime
-
-file = open(r"#Type the path here", "a")
-file.write(datetime.now(), "\n")
-file.close()
+from pathlib import Path
+f = Path(__file__).with_name("TimeChecker.txt").open("a")
+f.write(str(datetime.now()) + "\n")
+f.close()
