@@ -1,3 +1,4 @@
 # How to install
 
-make a shortcut of TimeChecker.pyw . go to window search type "Run" in the Run tab type "shell:startup" put the shortcut in that folder
+*SETUP*
+Make a shortcut of TimeChecker.pyw. Go to search type "Run" in the Run tab type "shell:startup" put the shortcut in that folder. Then set it to statup enable in Task Manager.
